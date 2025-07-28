@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: model-server-test1-repository
+spec:
+  url: https://github.com/fpetk-rolling-demo/model-server-test1
